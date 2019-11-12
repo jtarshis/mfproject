@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00001000101" font="Open Sans" controllayout="npnxnanbsnfns00001000101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000101" font="Open Sans" controllayout="pxabnsnfns00001000101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="npxnabnsnfns00001000101" font="Open Sans" controllayout="npxnabnsnfns00001000101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="npnxnanbnsnfns00001000101" font="Open Sans" controllayout="npnxnanbnsnfns00001000101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000100" font="Open Sans" controllayout="pxabnsnfns00001000100" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -27,7 +27,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -67,7 +67,7 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
             </options>
@@ -82,7 +82,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -95,7 +95,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -105,7 +105,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -118,7 +118,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -128,7 +128,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -141,7 +141,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -151,7 +151,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -164,7 +164,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -174,7 +174,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00001000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -187,7 +187,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -199,7 +199,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00001100101">
+    <colorscheme name="npnxnanbnsnfns00001000101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1105,7 +1105,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00001100101">
+    <string_table name="npnxnanbnsnfns00001000101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1166,41 +1166,56 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5iMMgsOTtLZ" displaytext="Section 1" expand="true" type="slide">
+        <slidelink slideid="_player.5iMMgsOTtLZ" displaytext="Intro to Section 2" expand="false" type="slide">
           <links>
-            <slidelink slideid="_player.5iMMgsOTtLZ.6Ygis7JLXQg" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5iMMgsOTtLZ.6Ygis7JLXQg" displaytext="Intro Slide" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5g03Ki9mBKY" displaytext="Section 2" expand="true" type="slide">
+        <slidelink slideid="_player.5g03Ki9mBKY" displaytext="Section 2" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.5g03Ki9mBKY.5mNbxyknoQY" displaytext="Section 2 Start" expand="false" type="slide" />
             <slidelink slideid="_player.5g03Ki9mBKY.6BQuqzucITf" displaytext="Chapter 1 Intro" expand="false" type="slide" />
             <slidelink slideid="_player.5g03Ki9mBKY.60bdDP3ogx1" displaytext="Chapter 1" expand="false" type="slide" />
             <slidelink slideid="_player.5g03Ki9mBKY.5oXnNC1gKmQ" displaytext="Chapter 1 Review" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.5h1g5rzmNMj" displaytext="Chapter 2" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.5oLbzYemM4I" displaytext="Chapter 2" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.6D0Hw5WOMWx" displaytext="Marion-Subjectivity" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.5yDu4W2IVKu" displaytext="Chapter 1.5 Activity" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.5y0aYmLUMUg" displaytext="Self-Eval Instructions" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.6RF3MltXCJD" displaytext="Self-Eval Start Late" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.5azJNMrKVeU" displaytext="Self-Eval End Early" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.64K2HweNTMl" displaytext="Self-Eval Connect Emo" expand="false" type="slide" />
-            <slidelink slideid="_player.5g03Ki9mBKY.6GwBrvoZifm" displaytext="Self-Eval Quest" expand="false" type="slide" />
+            <slidelink slideid="_player.5g03Ki9mBKY.5sIwKN0pIAT" displaytext="S2 Chapter 2 Intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5g03Ki9mBKY.639h9Fl8wPp" displaytext="Chapter 2 Start" expand="false" type="slide" />
+            <slidelink slideid="_player.5g03Ki9mBKY.6DhhD7HIBWV" displaytext="Chapter 2 Cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5g03Ki9mBKY.5m4c2FO7SDn" displaytext="Chapter 2 End" expand="false" type="slide" />
+            <slidelink slideid="_player.5g03Ki9mBKY.6JDzIkHtOeO" displaytext="Chapter 2 Recap" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.6D0Hw5WOMWx" displaytext="Marion-Subjectivity" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5yDu4W2IVKu" displaytext="Chapter 1.5 Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5y0aYmLUMUg" displaytext="Self-Eval Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.6RF3MltXCJD" displaytext="Self-Eval Start Late" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5azJNMrKVeU" displaytext="Self-Eval End Early" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.64K2HweNTMl" displaytext="Self-Eval Connect Emo" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.6GwBrvoZifm" displaytext="Self-Eval Quest" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5tlA8hGTeWl" displaytext="Katie Section 2" expand="true" type="slide">
+        <slidelink slideid="_player.6ESjTP9a0bq" displaytext="Intro to Section 3" expand="false" type="slide">
           <links>
-            <slidelink slideid="_player.5tlA8hGTeWl.5sIwKN0pIAT" displaytext="S2 Chapter 2 Intro" expand="false" type="slide" />
-            <slidelink slideid="_player.5tlA8hGTeWl.639h9Fl8wPp" displaytext="Chapter 2 Start" expand="false" type="slide" />
-            <slidelink slideid="_player.5tlA8hGTeWl.6DhhD7HIBWV" displaytext="Chapter 2 Cont" expand="false" type="slide" />
-            <slidelink slideid="_player.5tlA8hGTeWl.5m4c2FO7SDn" displaytext="Chapter 2 End" expand="false" type="slide" />
-            <slidelink slideid="_player.5tlA8hGTeWl.6JDzIkHtOeO" displaytext="Chapter 2 Recap" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESjTP9a0bq.6PsiFbO8r4E" displaytext="Intro Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5cyJEOTDnkB" displaytext="Section 3" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5cyJEOTDnkB.6D0Hw5WOMWx" displaytext="Marion-Subjectivity" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5yDu4W2IVKu" displaytext="Chapter 1.5 Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5y0aYmLUMUg" displaytext="Self-Eval Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.6RF3MltXCJD" displaytext="Self-Eval Start Late" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.5azJNMrKVeU" displaytext="Self-Eval End Early" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.64K2HweNTMl" displaytext="Self-Eval Connect Emo" expand="false" type="slide" />
+            <slidelink slideid="_player.5cyJEOTDnkB.6GwBrvoZifm" displaytext="Self-Eval Quest" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6D1j9KdfYNr" displaytext="Module Outro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6D1j9KdfYNr.6ILWcSlRkuB" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
